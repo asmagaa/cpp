@@ -171,3 +171,15 @@ int main() {
     cout << "Pierwiastek kwadratowy z " << n << " wynosi w przyblizeniu: " << i - 1 << endl;
     return 0;
 }
+
+#include <iostream>
+using namesopace std;
+
+int main(){
+	double n, guess, epsilon = 0.000001;
+	cin>>n;
+	guess = n;
+	while((guess*guess-n)>epsilon){
+		guess = (guess+n/guess)/2;
+	}
+	return guess;
