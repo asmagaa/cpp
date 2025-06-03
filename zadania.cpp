@@ -33,7 +33,7 @@ int main() {
     }
 
     cout << "Suma liczb od 1 do: " << x << " wynosi: " << suma << endl;
-} */
+} 
 
 // Zad 3:
 #include <iostream>
@@ -183,3 +183,4 @@ int main(){
 		guess = (guess+n/guess)/2;
 	}
 	return guess;
+}
